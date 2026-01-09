@@ -1,0 +1,25 @@
+# =========================
+# Environment Files
+# =========================
+.env
+.env.*
+
+# =========================
+# CodeIgniter Writable
+# =========================
+/writable/*
+!/writable/.htaccess
+!/writable/index.html
+
+# =========================
+# Uploads & Media (Streaming)
+# =========================
+/public/uploads/
+/public/videos/
+/public/hls/
+
+# =========================
+# Composer / Node
+# =========================
+/vendor/
+/node_modules/
